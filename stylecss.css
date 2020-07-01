@@ -1,0 +1,59 @@
+div.sidebar{
+position: relative;
+width: 250px;
+height: 100vh;
+background: #042331;
+left: 0;
+}
+ div.sidebar footer{
+   padding-left: 35px;
+ }
+section{
+  width: 80%;
+  height:100%;
+  margin-left: 270px;
+  z-index :111;
+  background: #044532;
+}
+
+ span {
+   width:35px;
+   height:3pc;
+   padding: 4px 5px;
+   background: white;
+   z-index: 111;
+ }
+
+div.sidebar header{
+font-size: 22px;
+color:white;
+text-align: center;
+line-height: 70px;
+background: #063146;
+user-select: all;
+}
+div.sidebar ul a{
+  display: block;
+  height:100%;
+  width:100%;
+  line-height: 65px;
+  font-size: 20px;
+  color:white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255,255, 0.1);
+  border-bottom: 1px solid black;
+  transition:  .4s;
+}
+ul li :hover a {
+  padding-left: 50px;
+}
+ul li{
+  list-style: none;
+}
+#check{
+  display: none;
+}
+label #btn , label #cancel{
+
+}
